@@ -33,3 +33,6 @@ instance/
 # IDE / editor files
 .idea/
 .vscode/
+
+.gemini/
+gha-creds-*.json

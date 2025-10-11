@@ -10,8 +10,13 @@
     <form method="POST">
         <label for="text">Text:</label>
         <input type="text" id="text" name="text" required><br><br>
-        <label for="font">Font (e.g., slant, standard, banner):</label>
-        <input type="text" id="font" name="font" value="slant"><br><br>
+        <label for="font">Font:</label>
+        <select id="font" name="font">
+            <option value="slant">Slant</option>
+            <option value="standard">Standard</option>
+            <option value="banner">Banner</option>
+            <option value="block">Block</option>
+        </select><br><br>
         <button type="submit">Generate</button>
     </form>
 
